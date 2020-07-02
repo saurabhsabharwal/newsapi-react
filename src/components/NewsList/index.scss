@@ -1,0 +1,16 @@
+.news-list-container {
+	.news-list-heading {
+		padding: 11px;
+		border-bottom: 1px solid #fff;
+		height: 46px;
+
+		h3 {
+			margin: 0;
+		}
+	}
+
+	.news-list-items {
+		height: 100%;
+		overflow-y: auto;
+	}
+}

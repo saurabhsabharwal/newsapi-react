@@ -1,0 +1,29 @@
+.app-container {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+
+	.news-sources-container {
+		display: flex;
+		flex-direction: column;
+		width: 20%;
+		color: #fff;
+		background-color: #000;
+	}
+
+	.news-list-container {
+		display: flex;
+		flex-direction: column;
+		width: 30%;
+		color: #000000;
+		background-color: #a9a9a9;
+	}
+
+	.news-item-container {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		color: #000;
+		background-color: #fff;
+	}
+}

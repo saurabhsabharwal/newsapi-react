@@ -1,0 +1,37 @@
+.news-sources-container {
+	.sources-heading {
+		padding: 10px;
+		border-bottom: 1px solid #fff;
+		height: 46px;
+
+		h3 {
+			margin: 0;
+		}
+	}
+
+	.news-sources-list {
+		overflow-y: auto;
+		height: calc(100vh - 92px);
+	}
+
+	.favorite-news {
+		height: 46px;
+		border-top: 1px solid #fff;
+
+		button {
+			display: block;
+			color: #a9a9a9;
+			text-decoration: none;
+			padding: 10px;
+
+			h4 {
+				margin: 0;
+			}
+
+			&:hover, &.active {
+				background-color: #222;
+				color: #fff;
+			}
+		}
+	}
+}

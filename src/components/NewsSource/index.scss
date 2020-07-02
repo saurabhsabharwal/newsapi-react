@@ -1,0 +1,26 @@
+.news-source-item {
+	button {
+		display: block;
+		color: #a9a9a9;
+		text-decoration: none;
+		padding: 10px;
+		transition: 200ms;
+		width: 100%;
+
+		h4, p {
+			margin: 0;
+		}
+
+		p {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			font-size: 14px;
+		}
+
+		&:hover, &.active {
+			background-color: #222;
+			color: #fff;
+		}
+	}
+}
